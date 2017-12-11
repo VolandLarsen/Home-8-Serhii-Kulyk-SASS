@@ -1,40 +1,18 @@
-.features {
-    height: 335px;
-    margin: 0;
-    padding: 0;
-}
-
-.features-list {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-}
 
 .feature:before {
     content: url(../img/edit.png);
     background-color: #2ecc71;
-    margin: 60px auto 30px;
     width: 98px;
     height: 98px;
-    display: flex;
-    justify-content: center;
     border-radius: 50%;
-    align-items: center;
-}
-
-
-.features-item {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    list-style-type: none;
 }
 
 .feature {
-    margin: 0 60px;
     width: 325px;
+}
+
+.features {
+    height: 335px;
 }
 
 .feature-head {
@@ -44,7 +22,6 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 18px;
-    text-align: center;
 }
 
 .p-feature {
@@ -54,5 +31,4 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    text-align: center;
 }

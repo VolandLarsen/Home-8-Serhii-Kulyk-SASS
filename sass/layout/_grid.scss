@@ -45,3 +45,44 @@
 }
 
 //features
+
+.features {
+    margin: 0;
+    padding: 0;
+}
+
+.features-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.features-item {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.feature:before {
+    margin: 60px auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    margin: 0 60px;
+}
+
+.feature-head {
+    text-align: center;
+}
+
+.p-feature {
+    text-align: center;
+}
+
+// Get Notified
