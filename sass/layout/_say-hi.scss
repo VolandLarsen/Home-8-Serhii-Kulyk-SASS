@@ -5,7 +5,7 @@
 
 .say-hi-header {
     color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: $head-font;
     font-size: 24px;
     font-weight: 400;
     line-height: 24px;
@@ -13,7 +13,7 @@
 
 .say-p {
     color: #848484;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -27,6 +27,6 @@
 
 .social-li:hover {
     cursor: pointer;
-    background-color: #2ecc71;
+    background-color: $main-color;
     transition: background-color 0.5s;
 }

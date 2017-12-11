@@ -1,5 +1,5 @@
 .header {
-    border-top: 10px solid #2ecc71;
+    border-top: 10px solid $main-color;
     background: url("../img/img.png");
     background-size: cover;
 }
@@ -24,7 +24,7 @@
     width: 453px;
     height: 59px;
     color: #ffffff;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
@@ -62,7 +62,7 @@
 
 .app-link:hover {
     cursor: pointer;
-    background-color: #2ecc71;
+    background-color: $main-color;
     transition: background-color 0.5s;
     color: #ffffff;
 }

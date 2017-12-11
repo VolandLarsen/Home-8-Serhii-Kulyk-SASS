@@ -1,8 +1,8 @@
 .submit {
-    font-family: 'Raleway', serif;
+    font-family: $head-font;
     text-decoration: none;
-    border: 1px solid #2ecc71;
-    background-color: #2ecc71;
+    border: 1px solid $main-color;
+    background-color: $main-color;
     border-radius: 0 10px 10px 0;
     color: #ffffff;
     font-size: 22px;
@@ -14,13 +14,13 @@
 
 .submit:hover {
     cursor: pointer;
-    background-color: #2ecc71;
+    background-color: $main-color;
     transition: background-color 0.5s;
     color: #000000;
 }
 
 .email {
-    font-family: 'Helvetica', sans-serif;
+    font-family: $main-font;
     text-decoration: none;
     border: none;
     background-color: transparent;
@@ -35,24 +35,24 @@
 
 .email::-webkit-input-placeholder {
     color: #848484;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 18px;
 }
 
 .email::-moz-placeholder {
     color: #848484;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 18px;
 }
 
 .email:-ms-input-placeholder {
     color: #848484;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 18px;
 }
 
 .email:-moz-placeholder {
     color: #848484;
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     font-size: 18px;
 }

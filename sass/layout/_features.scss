@@ -1,7 +1,7 @@
 
 .feature:before {
     content: url(../img/edit.png);
-    background-color: #2ecc71;
+    background-color: $main-color;
     width: 98px;
     height: 98px;
     border-radius: 50%;
@@ -16,7 +16,7 @@
 }
 
 .feature-head {
-    font-family: "Raleway", sans-serif;
+    font-family: $head-font;
     height: 17px;
     color: #222222;
     font-size: 22px;
@@ -25,7 +25,7 @@
 }
 
 .p-feature {
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     height: 42px;
     color: #848484;
     font-size: 16px;

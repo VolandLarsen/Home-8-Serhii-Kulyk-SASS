@@ -1,6 +1,6 @@
 .notified {
     height: 427px;
-    background-color: #e3e3e3;
+    background-color: $section-color;
 }
 
 .notify-section {
@@ -9,7 +9,7 @@
 }
 
 .notify-h {
-    font-family: "Raleway", sans-serif;
+    font-family: $head-font;
     color: #222222;
     font-size: 22px;
     font-weight: 400;
@@ -17,7 +17,7 @@
 }
 
 .notify-p {
-    font-family: "Helvetica", sans-serif;
+    font-family: $main-font;
     width: 525px;
     height: 91px;
     color: #848484;
