@@ -161,3 +161,39 @@
 
 // Say hi
 
+.say-hi {
+    margin: 0;
+    padding: 0;
+}
+
+.say-hi-header {
+    margin: 60px auto 0;
+    text-align: center;
+}
+
+.say-p {
+    text-align: center;
+    margin: 21px 0 0 0;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 60px;
+}
+
+.social-li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    margin: 0 5px;
+}
+
+//Footer
