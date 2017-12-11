@@ -1,0 +1,58 @@
+.submit {
+    font-family: 'Raleway', serif;
+    text-decoration: none;
+    border: 1px solid #2ecc71;
+    background-color: #2ecc71;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 18px;
+    padding: 19px 40px 15px 30px;
+    display: inline-block;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    transition: background-color 0.5s;
+    color: #000000;
+}
+
+.email {
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    border-radius: 10px 0 0 10px;
+    color: #848484;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 19px 40px 14px 30px;
+    display: inline-block;
+}
+
+.email::-webkit-input-placeholder {
+    color: #848484;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+.email::-moz-placeholder {
+    color: #848484;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+.email:-ms-input-placeholder {
+    color: #848484;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
+
+.email:-moz-placeholder {
+    color: #848484;
+    font-family: "Helvetica", sans-serif;
+    font-size: 18px;
+}
