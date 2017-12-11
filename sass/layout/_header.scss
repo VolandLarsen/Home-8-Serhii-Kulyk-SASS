@@ -1,0 +1,37 @@
+.header {
+    border-top: 10px solid #2ecc71;
+    background: url("../img/img.png");
+    background-size: cover;
+}
+
+
+.p-head {
+    width: 453px;
+    height: 59px;
+    color: #ffffff;
+    font-family: "HelveticaRegular", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.app {
+    list-style-type: none;
+}
+
+.app-link {
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}
+
+.win-icon {
+    opacity: 0.5;
+}
+
+.app-link:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    transition: background-color 0.5s;
+    color: #ffffff;
+}

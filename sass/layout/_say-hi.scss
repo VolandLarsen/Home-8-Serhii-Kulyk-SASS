@@ -1,0 +1,54 @@
+.say-hi {
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+
+.say-hi-header {
+    margin: 60px auto 0;
+    text-align: center;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.say-p {
+    color: #848484;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin: 21px 0 0 0;
+}
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 60px;
+}
+
+.social-li {
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    margin: 0 5px;
+}
+
+.social-li:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    transition: background-color 0.5s;
+}
