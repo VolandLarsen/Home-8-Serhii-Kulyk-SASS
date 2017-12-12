@@ -10,6 +10,11 @@
     float: left;
 }
 
+.logo-h1 {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     padding: 0;
     margin: 72px 0 36px 0;
@@ -220,6 +225,11 @@
     margin: 0 5px;
 }
 
+/*
+ * I used your method to align pictures in icons, but they still looks not good,
+ * When i add paddings by myself, icons where looks better...
+ */
+
 //Footer
 
 .footer {
@@ -236,6 +246,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-a {
