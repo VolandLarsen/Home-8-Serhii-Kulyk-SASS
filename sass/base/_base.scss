@@ -1,5 +1,6 @@
 body {
     max-width: 1600px;
+    width: 100%;
     height: auto;
     margin: 0 auto;
 }
@@ -13,6 +14,6 @@ body {
 }
 
 .container {
-    width: 1600px;
+    max-width: 1600px;
     margin: 0 auto;
 }

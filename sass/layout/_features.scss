@@ -1,5 +1,5 @@
 
-.feature:before {
+.feature-one:before {
     content: url(../img/edit.png);
     background-color: $main-color;
     width: 98px;
@@ -7,7 +7,31 @@
     border-radius: 50%;
 }
 
-.feature {
+.feature-two:before {
+    content: url(../img/star.png);
+    background-color: $main-color;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+
+.feature-three:before {
+    content: url(../img/world.png);
+    background-color: $main-color;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+}
+
+.feature-one {
+    width: 325px;
+}
+
+.feature-two {
+    width: 325px;
+}
+
+.feature-three {
     width: 325px;
 }
 
@@ -21,7 +45,7 @@
     color: #222222;
     font-size: 22px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 22px;
 }
 
 .p-feature {

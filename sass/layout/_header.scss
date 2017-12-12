@@ -27,19 +27,11 @@
     font-family: $main-font;
     font-size: 24px;
     font-weight: 500;
-    line-height: 36px;
-    margin: 0 0 26px 0;
-}
-
-.app-list {
-    margin: 0;
-    padding: 0;
+    line-height: 24px;
 }
 
 .app {
-    float: left;
     list-style-type: none;
-    margin: 0;
 }
 
 .app-link {
@@ -51,13 +43,6 @@
 
 .win-icon {
     opacity: 0.5;
-}
-
-.phone {
-    float: right;
-    margin: 0;
-    padding: 0;
-    display: block;
 }
 
 .app-link:hover {
